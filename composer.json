@@ -1,0 +1,33 @@
+{
+    "name": "hexlet/code",
+    "description": "php-project-9",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tvard",
+            "email": "i.tvard@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2",
+        "slim/php-view": "^3.1",
+        "tightenco/collect": "*",
+        "php-di/php-di": "^6.3",
+        "slim/flash": "^0.4.0",
+        "symfony/var-dumper": "^6.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^9.5"
+    },
+        "scripts": {
+                "phpcs": "phpcs"
+        }
+}
+
