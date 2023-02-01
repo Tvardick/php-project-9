@@ -29,7 +29,7 @@
     },
         "scripts": {
             "phpcs": "phpcs",
-            "post-update-cmd": [
+            "post-install-cmd": [
                 "rm -rf public/bootstrap",
                 "cp -R vendor/twbs/bootstrap/dist public/bootstrap"
             ]
